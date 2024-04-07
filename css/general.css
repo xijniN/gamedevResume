@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: calc(var(--section-amount) * 100vh);
+}
+
+:root {
+    font-size: 3em;
+    --section-amount: 3;
+}
+
+@font-face {
+    font-family: 'Jet Brains';
+    src: url(../fonts/JetBrainsMono-Medium.ttf);
+    ud: url()
+}
+
+@font-face {
+    font-family: 'The Bold Font';
+    src: url(../fonts/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.ttf);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.section {
+    min-height: 100vh;
+    width: 100%;
+}

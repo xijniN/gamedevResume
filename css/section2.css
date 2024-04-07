@@ -1,0 +1,50 @@
+#section-two {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-two h2 {
+    font-family: 'The Bold Font';
+    position: relative;
+    top: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#games-showcase {
+    display: grid;
+    width: 90%;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.game-card {
+    background-color: gainsboro;
+    padding: .25em;
+    border-radius: 20px;
+    aspect-ratio: 3/2;
+    width: 100%;
+    transform: translateY(0);
+    transition: transform .1s ease;
+    cursor: pointer;
+}
+.game-card:hover {
+    transform: translateY(-.5em);
+}
+
+.game-image {
+    border-radius: 10px;
+    aspect-ratio: 320/250;
+    width: 75%;
+}
+
+.game-name {
+    font-family: 'Jet Brains';
+    position: relative;
+    height: 20%;
+    font-size: .5em;
+    padding-bottom: .6em;
+    color: black;
+}
