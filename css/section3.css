@@ -10,7 +10,7 @@
 #contacts {
     display: flex;
     justify-content: space-between;
-    height: 70%;
+    height: 50%;
     width: 80%;
 }
 
